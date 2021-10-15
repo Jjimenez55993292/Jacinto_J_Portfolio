@@ -13,6 +13,7 @@ You are an analyst working for the government, and you have access to a set of h
 # [Project 2: Logistic Regression](https://wuhin8b1kkvpihrezztacq-on.drv.tw/www.project4.com/project_4.html)
 ### Scenario: 
 You are a risk analyst working for a credit card company. You have access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. The company needs to calculate the risk that its customers will default on their credit. 
+
 ![image](https://user-images.githubusercontent.com/79177516/137412784-2fe2bd4f-e615-41f4-857c-7095df391b34.png)
 
 
@@ -21,6 +22,7 @@ You are a risk analyst working for a credit card company. You have access to a s
 # [Project 3: Decision Trees](https://wuhin8b1kkvpihrezztacq-on.drv.tw/www.project3.com/Project_Three.html)
 ### Scenario: 
 You are a risk analyst working for a credit card company. You have access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. The company needs to calculate the risk that its customers will default on their credit.
+
 ![image](https://user-images.githubusercontent.com/79177516/137412692-3a8c369e-022d-498a-8b24-a612f6f6b46f.png)
 
 
@@ -30,6 +32,7 @@ You are a risk analyst working for a credit card company. You have access to a s
 ### Scenario:
 
 You are a data analyst working for a real estate company. You have access to a large set of historical data that you can use to analyze relationships between different attributes of a house (such as square footage or the number of bathrooms) and the house’s selling price. You have been asked to create different regression models to predict sale prices for houses based on critical variable factors. These regression models will help your company set better prices when listing a home for a client. Setting better prices will ensure that listings can be sold within a reasonable amount of time.
+
 ![image](https://user-images.githubusercontent.com/79177516/137412480-cea56d11-e9c0-4bf6-be74-c523107f6db3.png)
 
 
