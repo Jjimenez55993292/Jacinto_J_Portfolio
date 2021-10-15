@@ -5,7 +5,7 @@ Data Science Portfolio
 # [Project 1: Second-Order Regression Models](https://wuhin8b1kkvpihrezztacq-on.drv.tw/www.project5.com/project_5.html)
 ### Scenario:
 You are an analyst working for the government, and you have access to a set of historical data that can be used to study the wage growth of the labor force. Governments are interested in studying wage growth patterns based on their economic agenda. This data set has other economic factors that are related to wage growth. You will use this data set to create models for wage growth.
-![image](https://user-images.githubusercontent.com/79177516/137412193-092a50c4-3a9b-4569-838b-fa7681148f47.png)
+![image](https://user-images.githubusercontent.com/79177516/137412885-ff9205cb-3ed8-4452-a61e-f7354ce3d3b9.png)
 
 
 
