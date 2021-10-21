@@ -20,8 +20,9 @@ You are a risk analyst working for a credit card company. You have access to a s
 
 
 # [Project 3: Decision Trees](https://wuhin8b1kkvpihrezztacq-on.drv.tw/www.project3.com/Project_Three.html)
-### Scenario: 
-You are a risk analyst working for a credit card company. You have access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. The company needs to calculate the risk that its customers will default on their credit.
+## Scenario: 
+### Credit Card Modeling: 
+Credit Card company wants to study the relationships between customer characteristics and whether or not they are likely to default on their credit. Decision trees are used to develop a model that calculates the customers' risk of defaulting on their credit. 
 
 ![image](https://user-images.githubusercontent.com/79177516/137412692-3a8c369e-022d-498a-8b24-a612f6f6b46f.png)
 
