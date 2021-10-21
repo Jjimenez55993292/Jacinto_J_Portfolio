@@ -11,8 +11,9 @@ You are an analyst working for the government, and you have access to a set of h
 
 
 # [Project 2: Logistic Regression](https://wuhin8b1kkvpihrezztacq-on.drv.tw/www.project4.com/project_4.html)
-### Scenario: 
-You are a risk analyst working for a credit card company. You have access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. The company needs to calculate the risk that its customers will default on their credit. 
+## Scenario: 
+### Credit Card Modeling: 
+Credit Card company wants to study the relationships between customer characteristics and whether the customer is likely to default on their credit. Logistic Regression is used to develop a model that calculates the customers' risk of defaulting on their credit. 
 
 ![image](https://user-images.githubusercontent.com/79177516/137412784-2fe2bd4f-e615-41f4-857c-7095df391b34.png)
 
