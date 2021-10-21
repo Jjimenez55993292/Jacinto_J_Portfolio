@@ -29,10 +29,9 @@ You are a risk analyst working for a credit card company. You have access to a s
 
 
 # [Project 4: Multiple Regression, Qualitative Variables Interactions, Quadratic Regression](https://wuhin8b1kkvpihrezztacq-on.drv.tw/www.ProjectOne.com/Project_One.html)
-### Scenario:
-
-You are a data analyst working for a real estate company. You have access to a large set of historical data that you can use to analyze relationships between different attributes of a house (such as square footage or the number of bathrooms) and the house’s selling price. You have been asked to create different regression models to predict sale prices for houses based on critical variable factors. These regression models will help your company set better prices when listing a home for a client. Setting better prices will ensure that listings can be sold within a reasonable amount of time.
-
+## Scenario:
+### Real Estate Regression Modeling:
+Have access to a large set of historical data to help analyze relationships between a house's different attributes (such as square footage or the number of bathrooms) and the house's selling price. The regression models will predict house sale prices based on critical variable factors.  The developed regression models will use Multiple Regression, Qualitative Variables Interactions, and Quadratic Regression to develop models. The regression models will help a real estate company set better prices when listing a home for a client. Also, Setting better prices will ensure that listings can be sold within a reasonable amount of time.
 ![image](https://user-images.githubusercontent.com/79177516/137412480-cea56d11-e9c0-4bf6-be74-c523107f6db3.png)
 
 
