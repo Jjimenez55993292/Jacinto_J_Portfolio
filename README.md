@@ -45,7 +45,7 @@ Credit Card company wants to study the relationships between customer characteri
 # [Project 3: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
-In this project, we will be working on a text dataset, a book written by Plato, “The Republic.” This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. We will be using Deep Learning (Long Short-term Memory) LSTM model to develop our algorithm model. This model is based on Neural Net-Architecture and provides very high performance on sequence-based datasets. It has a feedback structure helping the model remember the sequence of data input and the changes in the output depending on what is happening to predicit the next word in a setence.
+In this project, we create a logistic regression model in R and we create a  logistic regression model to help answer the questions question we have about the dataset.  A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit. 
 
 ![image](https://user-images.githubusercontent.com/79177516/137412692-3a8c369e-022d-498a-8b24-a612f6f6b46f.png)
 
