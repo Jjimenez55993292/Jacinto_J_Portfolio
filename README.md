@@ -9,6 +9,7 @@ Hello, my name is Jacinto Jimenez, and welcome to my data science portfolio. I a
 ### LSTM Model - Predicting The Next Word In A Setence: 
 In this project, we build and deploy Data Science, Machine Learning, Deep Learning models. We use Python libraries (NumPy, pickle, Keras, TensorFlow, Pandas), Django, GCP, and Heruko Cloud. We will be working on a text dataset, a book. This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. We will be using Deep Learning (Long Short-term Memory) LSTM model to develop our algorithm model. This model is based on Neural Net-Architecture and provides very high performance on sequence-based datasets. It has a feedback structure helping the model remember the sequence of data input and the changes in the output depending on what is happening to predicit the next word in a setence.
 
+### [GitHub - Jupyter Notes ](https://github.com/Jjimenez55993292/Deep-Learning-LSTM-model)
 
 ![image](https://user-images.githubusercontent.com/79177516/163972466-97233b06-1bf2-4d0a-a2fd-d57d815ce0df.png)
 
@@ -20,7 +21,8 @@ In this project, we build and deploy Data Science, Machine Learning, Deep Learni
 We use Django which is an open-source web application framework written in Python. This gave us the ability to use our developed python model for predicting the next word. Although our model predicts words based on the model we develop, we also must consider that our current model is only about 27 percent accurate. As our training dataset increases, the model's accuracy also increases. We were able to implement the model on our website, and we were able to get something that's workable; however, it does need Improvement. This is the last stage or step in the process of building the project where we host the newly made website using the Django platform. With this completed, we would be able to access our website and run the model from anywhere across the internet.
 
 
-### [GitHub - link ](https://github.com/Jjimenez55993292/Deep-Learning-LSTM-model)
+
+### [GitHub - Website- Link ](https://github.com/Jjimenez55993292/Deep-Learning-Long-Short-term-Memory-LSTM-model-Website)
 
 
 ![image](https://user-images.githubusercontent.com/79177516/163972673-bf0c7181-7694-4622-9217-bf885a0db423.png)
