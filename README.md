@@ -13,12 +13,12 @@ In this project, Build and Deploy Data Science, Machine Learning, Deep Learning.
 
 ## Implementation:
 ### Predicting The Next Word In A Setence Website: 
-### [Website:The Next Word In A Setence Website](http://jacintojimenez606.pythonanywhere.com/home/)
+### [Website: The Next Word In A Setence Website - Link ](http://jacintojimenez606.pythonanywhere.com/home/)
 
-Django is an open-source web application framework written in Python. It includes advanced functionality like authentication support, management and admin panels, contact forms, comment boxes, file upload support, etc. This gave us the ability to use our developed python model for predicting the next word. Although our model predicts words based on the model we develop, we also must consider that our current model is only about 27 percent accurate. As our training dataset increases, the model's accuracy also increases. We were able to implement the model on our website, and we were able to get something that's workable; however, it does need Improvement. This is the last stage or step in the process of building the project where we host the newly made website using the Django platform. With this completed, we would be able to access our website and run the model from anywhere across the internet.
+We use Django which is an open-source web application framework written in Python. This gave us the ability to use our developed python model for predicting the next word. Although our model predicts words based on the model we develop, we also must consider that our current model is only about 27 percent accurate. As our training dataset increases, the model's accuracy also increases. We were able to implement the model on our website, and we were able to get something that's workable; however, it does need Improvement. This is the last stage or step in the process of building the project where we host the newly made website using the Django platform. With this completed, we would be able to access our website and run the model from anywhere across the internet.
 
 
-### [GitHub link](https://github.com/Jjimenez55993292/Deep-Learning-LSTM-model)
+### [GitHub - link ](https://github.com/Jjimenez55993292/Deep-Learning-LSTM-model)
 
 
 ![image](https://user-images.githubusercontent.com/79177516/163972673-bf0c7181-7694-4622-9217-bf885a0db423.png)
