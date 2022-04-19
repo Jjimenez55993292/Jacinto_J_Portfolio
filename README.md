@@ -2,7 +2,7 @@
 Data Science Portfolio
 
 
-# [Project 1: Second-Order Regression Models](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_5.html)
+# [Project 1: Second-Order Regression Models](https://jjimenez55993292.github.io/Deep-Learning-LSTM-model/blob/main/PredictingNextWordInASentence.html)
 ## Scenario:
 ### Wage Growth Modeling: 
 The government has access to a set of historical data that can be used to study the wage growth of the labor force. Governments are interested in learning wage growth patterns based on their economic agenda. This data set has other economic factors that are related to wage growth.  The data set will help create models for wage growth.
