@@ -35,7 +35,7 @@ We use Django which is an open-source web application framework written in Pytho
 # [Project 2: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
-Credit Card company wants to study the relationships between customer characteristics and whether the customer is likely to default on their credit. Logistic Regression is used to develop a model that calculates the customers' risk of defaulting on their credit. 
+In this project, we create a logistic regression model in R and we create a logistic regression model to help answer the questions question we have about the dataset. A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit.
 
 ![image](https://user-images.githubusercontent.com/79177516/137412784-2fe2bd4f-e615-41f4-857c-7095df391b34.png)
 
