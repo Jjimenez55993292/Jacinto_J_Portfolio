@@ -28,11 +28,11 @@ We use Django which is an open-source web application framework written in Pytho
 ![image](https://user-images.githubusercontent.com/79177516/163972673-bf0c7181-7694-4622-9217-bf885a0db423.png)
 
 
+# [Project 2: Logistic Regression - Pyhton - Sentiment analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
+In the project, we build and deploy Data Science to develop a logistical regression model for Sentiment analysis in this project. We use Python libraries (NumPy, pickle, Keras, TensorFlow, Pandas), Django. We will be working on tweet datasets. This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. Sentiment analysis or opinion mining is a natural language processing technique used to determine whether data is positive-negative or neutral. Developing models is extremely important in item analysis because he could develop specific models for a specific scenario to analyze customer sentiment. We will use python to build features and a logistical regression model. First, we would understand the textured data and the procedure features from the data set in detail. We will develop our logistical regression model to predict the sentiment of the data.
 
 
-
-
-# [Project 2: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
+# [Project 3: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, we create a model in R and we create a logistic regression model to help answer the questions question we have about the dataset. A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit.
@@ -42,7 +42,7 @@ In this project, we create a model in R and we create a logistic regression mode
 
 
 
-# [Project 3: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
+# [Project 4: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, we use Decision Trees models to create a model to help answer the questions question we have about the dataset.  A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit. 
@@ -52,7 +52,7 @@ In this project, we use Decision Trees models to create a model to help answer t
 
 
 
-# [Project 4: Multiple Regression, Qualitative Variables Interactions, Quadratic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_One.html)
+# [Project 5: Multiple Regression, Qualitative Variables Interactions, Quadratic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_One.html)
 ## Scenario:
 ### Real Estate Regression Modeling:
 Have access to a large set of historical data to help analyze relationships between a house's different attributes (such as square footage or the number of bathrooms) and the house's selling price. The regression models will predict house sale prices based on critical variable factors.  The developed regression models will use Multiple Regression, Qualitative Variables Interactions, and Quadratic Regression to develop models. The regression models will help a real estate company set better prices when listing a home for a client. Also, Setting better prices will ensure that listings can be sold within a reasonable amount of time.
@@ -60,7 +60,7 @@ Have access to a large set of historical data to help analyze relationships betw
 
 
 
-# [Project 5: Logistic Regression and Random Forests](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Two.html)
+# [Project 6: Logistic Regression and Random Forests](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Two.html)
 ## Scenario:
 ### Heart Disease Modeling: 
 University Hospital is researching risk factors for heart disease. Have access to a large set of historical data that you can use to analyze patterns between different health indicators (e.g. fasting blood sugar, maximum heart rate, etc.) and the presence of heart disease. Create different logistic regression models that predict whether or not a person is at risk for heart disease. A model like this could eventually be used to evaluate medical records and look for risks that might not be obvious to human doctors.  Also, another model will create a classification random forest model to predict the risk of heart disease and a regression random forest model to predict the maximum heart rate achieved. For this project we create different models analyzing a Heart Disease data set using Logistic Regression and Random Forests. 
