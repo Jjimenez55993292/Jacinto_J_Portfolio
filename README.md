@@ -28,11 +28,14 @@ We use Django which is an open-source web application framework written in Pytho
 ![image](https://user-images.githubusercontent.com/79177516/163972673-bf0c7181-7694-4622-9217-bf885a0db423.png)
 
 
-# [Project 2: Logistic Regression - Pyhton - Sentiment analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
+# [Project 2: Logistic Regression - Pyhton - Sentiment Analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
+
 ## Scenario: 
 ###  Sentiment Analysis Modeling: 
 
 In the project, we build and deploy Data Science to develop a logistical regression model for Sentiment analysis in this project. We use Python libraries (NumPy, pickle, Keras, TensorFlow, Pandas), Django. We will be working on tweet datasets. This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. Sentiment analysis or opinion mining is a natural language processing technique used to determine whether data is positive-negative or neutral. Developing models is extremely important in item analysis because he could develop specific models for a specific scenario to analyze customer sentiment. We will use python to build features and a logistical regression model. First, we would understand the textured data and the procedure features from the data set in detail. We will develop our logistical regression model to predict the sentiment of the data.
+
+![image](https://user-images.githubusercontent.com/79177516/164423025-d5c8c139-aeca-49de-8c80-7f070375b553.png)
 
 
 # [Project 3: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
