@@ -37,6 +37,15 @@ In the project, we build and deploy Data Science to develop a logistical regress
 
 ![image](https://user-images.githubusercontent.com/79177516/164423025-d5c8c139-aeca-49de-8c80-7f070375b553.png)
 
+## Implementation:
+### Sentiment Analysis Using Logistic Regression Model Website: 
+### [Website:Sentiment Analysis Sentiment Analyzer Website - Link ](https://jimenez55993292.pythonanywhere.com/polls/)
+
+We use Django, an open-source web application framework written in Python. This gave us the ability to use our developed python model for Sentiment Analysis. Sentiment analysis or opinion mining is a natural language processing technique used to determine whether data is positive-negative or neutral. Our logistic regression model accuracy is at 99.50 percent. Then we can use the functions that were developed to predict the sentiment of the string input in our website. This is the last stage or step in the process of building the project where we host the newly made website using the Django platform. With this completed, we would be able to access our website and run the model from anywhere across the internet.
+
+![image](https://user-images.githubusercontent.com/79177516/164618063-9625d13e-8476-4318-a276-9ab4814bd2c0.png)
+
+
 
 # [Project 3: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
 ## Scenario: 
