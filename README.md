@@ -20,7 +20,7 @@ We use Django which is an open-source web application framework written in Pytho
 
 
 
-### [GitHub - Website- Link ](https://github.com/Jjimenez55993292/Deep-Learning-Long-Short-term-Memory-LSTM-model-Website)
+### [GitHub-Link ](https://github.com/Jjimenez55993292/Deep-Learning-LSTM-model)
 
 
 ![image](https://user-images.githubusercontent.com/79177516/163972673-bf0c7181-7694-4622-9217-bf885a0db423.png)
