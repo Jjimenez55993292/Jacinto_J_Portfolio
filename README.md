@@ -5,7 +5,7 @@ Hello, my name is Jacinto Jimenez, and welcome to my data science portfolio. I a
 
 
 
-# [Project 1: Automated Machine Learning Techniques EvalML](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
+# [Project 1: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
 ## Scenario:
 ### Heart Attack Risk Predictor Modeling: 
 The main purpose of this project is to predict whether a person is at risk of a heart attack or not, using automated Automated Machine Learning Techniques. We are given a data set in which various attributes are provided, crucial for heart disease detection. We are going to compare our data to other ML Models such as, Logistic Regression,Decision Tree,Random Forest,K Nearest Neighbor and SVM models. Then we will compare the models using automated Automated Machine Learning Techniques. AutoML is the process of automating the tasks of applying machine learning to real-world problems. We will be using the EvalML Library. EvalML automates a more significant part of the machine learning process. We can quickly evaluate which machine learning pipeline works better for the given data set. 
