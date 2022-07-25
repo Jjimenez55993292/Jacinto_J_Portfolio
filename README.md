@@ -53,8 +53,15 @@ We use Django, an open-source web application framework written in Python. This 
 ![image](https://user-images.githubusercontent.com/79177516/164618063-9625d13e-8476-4318-a276-9ab4814bd2c0.png)
 
 
-
 # [Project 4: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
+## Scenario: 
+### Credit Card Risks Modeling: 
+In this project, we create a model in R and we create a logistic regression model to help answer the questions question we have about the dataset. A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit.
+
+![image](https://user-images.githubusercontent.com/79177516/137412784-2fe2bd4f-e615-41f4-857c-7095df391b34.png)
+
+
+# [Project 5: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, we create a model in R and we create a logistic regression model to help answer the questions question we have about the dataset. A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit.
@@ -64,7 +71,7 @@ In this project, we create a model in R and we create a logistic regression mode
 
 
 
-# [Project 5: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
+# [Project 6: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, we use Decision Trees models to create a model to help answer the questions question we have about the dataset.  A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit. 
@@ -74,7 +81,7 @@ In this project, we use Decision Trees models to create a model to help answer t
 
 
 
-# [Project 6: Multiple Regression, Qualitative Variables Interactions, Quadratic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_One.html)
+# [Project 7: Multiple Regression, Qualitative Variables Interactions, Quadratic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_One.html)
 ## Scenario:
 ### Real Estate Regression Modeling:
 Have access to a large set of historical data to help analyze relationships between a house's different attributes (such as square footage or the number of bathrooms) and the house's selling price. The regression models will predict house sale prices based on critical variable factors.  The developed regression models will use Multiple Regression, Qualitative Variables Interactions, and Quadratic Regression to develop models. The regression models will help a real estate company set better prices when listing a home for a client. Also, Setting better prices will ensure that listings can be sold within a reasonable amount of time.
@@ -82,7 +89,7 @@ Have access to a large set of historical data to help analyze relationships betw
 
 
 
-# [Project 7: Logistic Regression and Random Forests](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Two.html)
+# [Project 8: Logistic Regression and Random Forests](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Two.html)
 ## Scenario:
 ### Heart Disease Modeling: 
 University Hospital is researching risk factors for heart disease. Have access to a large set of historical data that you can use to analyze patterns between different health indicators (e.g. fasting blood sugar, maximum heart rate, etc.) and the presence of heart disease. Create different logistic regression models that predict whether or not a person is at risk for heart disease. A model like this could eventually be used to evaluate medical records and look for risks that might not be obvious to human doctors.  Also, another model will create a classification random forest model to predict the risk of heart disease and a regression random forest model to predict the maximum heart rate achieved. For this project we create different models analyzing a Heart Disease data set using Logistic Regression and Random Forests. 
