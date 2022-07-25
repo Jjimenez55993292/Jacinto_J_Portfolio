@@ -53,12 +53,12 @@ We use Django, an open-source web application framework written in Python. This 
 ![image](https://user-images.githubusercontent.com/79177516/164618063-9625d13e-8476-4318-a276-9ab4814bd2c0.png)
 
 
-# [Project 4: BERT NLP Model](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
+# [Project 4: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
 ## Scenario: 
 ### Store Logistics Accuracy Modeling: 
 In this project, we build a learning-based entity extraction model (a custom Bert Model) to extract the store_number from the transaction_descriptor. The dataset contains three sections: train, validate, and test. We use Python libraries (NumPy, Keras, TensorFlow, Pandas). This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. What is BERT NLP Model? BERT NLP model is a group of Transformers encoders stacked on each other. BERT is a precise, huge transformer masked language model in more technical terms. Models are the output of an algorithm run on data, including the procedures used to make predictions on data. Once we develop the custom part model we can use it for implementation in a real-life example given the data provided.
 
-![image](![image](https://user-images.githubusercontent.com/79177516/180824510-749865ae-9433-4fbe-8bf6-ecf12538a739.png)
+![image](![image](![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
 
 
 # [Project 5: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
