@@ -60,7 +60,7 @@ In this project, we build a learning-based entity extraction model (a custom Ber
 
 ###[Link - Data Set for Model ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Example.Dataset.Homework.html)
 
-![image](![image](![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
+![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
 
 
 # [Project 5: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
@@ -95,7 +95,6 @@ Have access to a large set of historical data to help analyze relationships betw
 ## Scenario:
 ### Heart Disease Modeling: 
 University Hospital is researching risk factors for heart disease. Have access to a large set of historical data that you can use to analyze patterns between different health indicators (e.g. fasting blood sugar, maximum heart rate, etc.) and the presence of heart disease. Create different logistic regression models that predict whether or not a person is at risk for heart disease. A model like this could eventually be used to evaluate medical records and look for risks that might not be obvious to human doctors.  Also, another model will create a classification random forest model to predict the risk of heart disease and a regression random forest model to predict the maximum heart rate achieved. For this project we create different models analyzing a Heart Disease data set using Logistic Regression and Random Forests. 
-
 ### [GitHub - Jupyter Notes ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Logistic_Regression_%20jupyter_notes_2.html)
 
 ![image](https://user-images.githubusercontent.com/79177516/137412663-55e2d96f-9453-4a3f-a1b6-2f164cd143ab.png)
