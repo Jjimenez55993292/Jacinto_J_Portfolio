@@ -58,6 +58,8 @@ We use Django, an open-source web application framework written in Python. This 
 ### Store Logistics Accuracy Modeling: 
 In this project, we build a learning-based entity extraction model (a custom Bert Model) to extract the store_number from the transaction_descriptor. The dataset contains three sections: train, validate, and test. We use Python libraries (NumPy, Keras, TensorFlow, Pandas). This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. What is BERT NLP Model? BERT NLP model is a group of Transformers encoders stacked on each other. BERT is a precise, huge transformer masked language model in more technical terms. Models are the output of an algorithm run on data, including the procedures used to make predictions on data. Once we develop the custom part model we can use it for implementation in a real-life example given the data provided.
 
+### [Link - DataSet for Model](https://github.com/Jjimenez55993292/Example.Dataset.Homework.html)
+
 ![image](![image](![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
 
 
