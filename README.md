@@ -1,7 +1,7 @@
 # Jacinto_Jimenez_Portfolio
-### Data Science Portfolio
+### Data Science and Data Engineering Portfolio
 
-Hello, my name is Jacinto Jimenez, and welcome to my data science portfolio. I am very passionate about data science. Data science helps us answer many questions using data. Data is all around us, and data science allows us to answer questions we wonder about with using datasets. I have included a couple of projects that I have worked on in courses during college. These projects use different types of libraries in Python and the R programming languages. I also use various data analysis techniques to develop models.  The projects I have chosen cover different modeling. 
+Hello, my name is Jacinto Jimenez, and welcome to my data science and data engineerng portfolio. I am very passionate about data. Data science helps us answer many questions using data. Data is all around us, and data science allows us to answer questions we wonder about with using datasets. I have included a couple of projects that I have worked on in courses during college. These projects use different types of libraries in Python and the R programming languages. I also use various data analysis techniques to develop models.  The projects I have chosen cover different modeling. 
 
 
 
