@@ -12,9 +12,7 @@ This project is to ingest and process earthquake data from the USGS and create a
 The data is obtained by accessing a public REST API provided by USGS, and the seismic events data is stored in a denormalized format using the One Big Table (OBT) method. The project is implemented as an Airflow DAG that runs daily and parameterizes the API endpoint to use the dates passed in by using the Airflow provided template variables. The seismic events data is transformed and materialized as a view and an incremental table using dbt, with a built-in tool to visually show data lineage as it travels across the data layers: raw -> stage -> final.
 Finally, the data is made available for analysis and visualization in Looker Studio using BigQuery as the data source. See image below.
 
-
-![image](https://github.com/Jjimenez55993292/EarthquakeDataEngineering/blob/main/images/architecture_earthquake.excalidraw.png)
-
+![image](https://user-images.githubusercontent.com/79177516/219904889-225158d2-6afb-4aa2-a1e4-28abfd44ac23.png)
 
 
 
