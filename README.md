@@ -3,13 +3,16 @@
 
 Hello, my name is Jacinto Jimenez, and welcome to my data science and data engineerng portfolio. I am very passionate about data. Data science helps us answer many questions using data. Data is all around us, and data science allows us to answer questions we wonder about with using datasets. I have included a couple of projects that I have worked on in courses during college. These projects use different types of libraries in Python and the R programming languages. I also use various data analysis techniques to develop models.  The projects I have chosen cover different modeling. 
 
-
-# [Project 1: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
+#Data Engineering
+# [Project 1: Earthquake Data Engineering Project](https://github.com/Jjimenez55993292/EarthquakeDataEngineering)
 ## Scenario:
-### Heart Attack Risk Predictor Modeling: 
-The main purpose of this project is to predict whether a person is at risk of a heart attack or not, using automated Automated Machine Learning Techniques. We are given a data set in which various attributes are provided, crucial for heart disease detection. We are going to compare our data to other ML Models such as, Logistic Regression,Decision Tree,Random Forest,K Nearest Neighbor and SVM models. Then we will compare the models using automated Automated Machine Learning Techniques. AutoML is the process of automating the tasks of applying machine learning to real-world problems. We will be using the EvalML Library. EvalML automates a more significant part of the machine learning process. We can quickly evaluate which machine learning pipeline works better for the given data set. 
+### Earthquake Data Pipeline: 
+This project is to ingest and process earthquake data from the USGS and create a data pipeline, store it in a datalake, and make it available for analysis and visualization. The project has been designed to be automated, reliable, scalable, and affordable, using a variety of open-source technologies such as Terraform, Airflow, Docker, GCS, BigQuery, dbt, and Looker Studio.
+The data is obtained by accessing a public REST API provided by USGS, and the seismic events data is stored in a denormalized format using the One Big Table (OBT) method. The project is implemented as an Airflow DAG that runs daily and parameterizes the API endpoint to use the dates passed in by using the Airflow provided template variables. The seismic events data is transformed and materialized as a view and an incremental table using dbt, with a built-in tool to visually show data lineage as it travels across the data layers: raw -> stage -> final.
+Finally, the data is made available for analysis and visualization in Looker Studio using BigQuery as the data source. 
 
-![image](https://user-images.githubusercontent.com/79177516/165724113-5a4ebe24-9eb0-4546-bf4d-3cb7295cf050.png)
+
+![image](https://github.com/Jjimenez55993292/EarthquakeDataEngineering/blob/main/images/architecture_earthquake.excalidraw.png)
 
 
 # [Project 2: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
@@ -21,6 +24,7 @@ In this project, we build a learning-based entity extraction model (a custom Ber
 
 ![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
 
+# Data Science
 # [Project 3: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
 ## Scenario:
 ### Heart Attack Risk Predictor Modeling: 
