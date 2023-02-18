@@ -3,7 +3,8 @@
 
 Hello, my name is Jacinto Jimenez, and welcome to my data science and data engineerng portfolio. I am very passionate about data. Data science helps us answer many questions using data. Data is all around us, and data science allows us to answer questions we wonder about with using datasets. I have included a couple of projects that I have worked on in courses during college. These projects use different types of libraries in Python and the R programming languages. I also use various data analysis techniques to develop models.  The projects I have chosen cover different modeling. 
 
-#Data Engineering
+# Data Engineering
+
 # [Project 1: Earthquake Data Engineering Project](https://github.com/Jjimenez55993292/EarthquakeDataEngineering)
 ## Scenario:
 ### Earthquake Data Pipeline: 
@@ -15,6 +16,8 @@ Finally, the data is made available for analysis and visualization in Looker Stu
 ![image](https://github.com/Jjimenez55993292/EarthquakeDataEngineering/blob/main/images/architecture_earthquake.excalidraw.png)
 
 
+
+
 # [Project 2: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
 ## Scenario: 
 ### Store Logistics Accuracy Modeling: 
@@ -24,13 +27,17 @@ In this project, we build a learning-based entity extraction model (a custom Ber
 
 ![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
 
+
+
 # Data Science
+
 # [Project 3: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
 ## Scenario:
 ### Heart Attack Risk Predictor Modeling: 
 The main purpose of this project is to predict whether a person is at risk of a heart attack or not, using automated Automated Machine Learning Techniques. We are given a data set in which various attributes are provided, crucial for heart disease detection. We are going to compare our data to other ML Models such as, Logistic Regression,Decision Tree,Random Forest,K Nearest Neighbor and SVM models. Then we will compare the models using automated Automated Machine Learning Techniques. AutoML is the process of automating the tasks of applying machine learning to real-world problems. We will be using the EvalML Library. EvalML automates a more significant part of the machine learning process. We can quickly evaluate which machine learning pipeline works better for the given data set. 
 
 ![image](https://user-images.githubusercontent.com/79177516/165724113-5a4ebe24-9eb0-4546-bf4d-3cb7295cf050.png)
+
 
 
 # [Project 4: Learning (Long Short-term Memory) LSTM Model](https://jjimenez55993292.github.io/Deep-Learning-LSTM-model/PredictingNextWordInASentence.html)
@@ -55,6 +62,7 @@ We use Django which is an open-source web application framework written in Pytho
 ![image](https://user-images.githubusercontent.com/79177516/163972673-bf0c7181-7694-4622-9217-bf885a0db423.png)
 
 
+
 # [Project 5: Logistic Regression - Pyhton - Sentiment Analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
 
 ## Scenario: 
@@ -71,7 +79,6 @@ In the project, we build and deploy Data Science to develop a logistical regress
 We use Django, an open-source web application framework written in Python. This gave us the ability to use our developed python model for Sentiment Analysis. Sentiment analysis or opinion mining is a natural language processing technique used to determine whether data is positive-negative or neutral. Our logistic regression model accuracy is at 99.50 percent. Then we can use the functions that were developed to predict the sentiment of the string input in our website. This is the last stage or step in the process of building the project where we host the newly made website using the Django platform. With this completed, we would be able to access our website and run the model from anywhere across the internet.
 
 ![image](https://user-images.githubusercontent.com/79177516/164618063-9625d13e-8476-4318-a276-9ab4814bd2c0.png)
-
 
 
 
