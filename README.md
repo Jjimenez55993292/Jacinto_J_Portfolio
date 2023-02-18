@@ -4,7 +4,6 @@
 Hello, my name is Jacinto Jimenez, and welcome to my data science and data engineerng portfolio. I am very passionate about data. Data science helps us answer many questions using data. Data is all around us, and data science allows us to answer questions we wonder about with using datasets. I have included a couple of projects that I have worked on in courses during college. These projects use different types of libraries in Python and the R programming languages. I also use various data analysis techniques to develop models.  The projects I have chosen cover different modeling. 
 
 
-
 # [Project 1: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
 ## Scenario:
 ### Heart Attack Risk Predictor Modeling: 
@@ -13,7 +12,24 @@ The main purpose of this project is to predict whether a person is at risk of a 
 ![image](https://user-images.githubusercontent.com/79177516/165724113-5a4ebe24-9eb0-4546-bf4d-3cb7295cf050.png)
 
 
-# [Project 2: Learning (Long Short-term Memory) LSTM Model](https://jjimenez55993292.github.io/Deep-Learning-LSTM-model/PredictingNextWordInASentence.html)
+# [Project 2: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
+## Scenario: 
+### Store Logistics Accuracy Modeling: 
+In this project, we build a learning-based entity extraction model (a custom Bert Model) to extract the store_number from the transaction_descriptor. The dataset contains three sections: train, validate, and test. We use Python libraries (NumPy, Keras, TensorFlow, Pandas). This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. What is BERT NLP Model? BERT NLP model is a group of Transformers encoders stacked on each other. BERT is a precise, huge transformer masked language model in more technical terms. Models are the output of an algorithm run on data, including the procedures used to make predictions on data. Once we develop the custom part model we can use it for implementation in a real-life example given the data provided.
+
+### [Link - Data Set for Model ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Example.Dataset.Homework.html)
+
+![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
+
+# [Project 3: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
+## Scenario:
+### Heart Attack Risk Predictor Modeling: 
+The main purpose of this project is to predict whether a person is at risk of a heart attack or not, using automated Automated Machine Learning Techniques. We are given a data set in which various attributes are provided, crucial for heart disease detection. We are going to compare our data to other ML Models such as, Logistic Regression,Decision Tree,Random Forest,K Nearest Neighbor and SVM models. Then we will compare the models using automated Automated Machine Learning Techniques. AutoML is the process of automating the tasks of applying machine learning to real-world problems. We will be using the EvalML Library. EvalML automates a more significant part of the machine learning process. We can quickly evaluate which machine learning pipeline works better for the given data set. 
+
+![image](https://user-images.githubusercontent.com/79177516/165724113-5a4ebe24-9eb0-4546-bf4d-3cb7295cf050.png)
+
+
+# [Project 4: Learning (Long Short-term Memory) LSTM Model](https://jjimenez55993292.github.io/Deep-Learning-LSTM-model/PredictingNextWordInASentence.html)
 ## Scenario:
 ### LSTM Model - Predicting The Next Word In A Sentence: 
 In this project, we build and deploy Data Science, Machine Learning, Deep Learning models. We use Python libraries (NumPy, pickle, Keras, TensorFlow, Pandas), Django, GCP, and Heruko Cloud. We will be working on a text dataset, a book. This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. We will be using Deep Learning (Long Short-term Memory) LSTM model to develop our algorithm model. This model is based on Neural Net-Architecture and provides very high performance on sequence-based datasets. It has a feedback structure helping the model remember the sequence of data input and the changes in the output depending on what is happening to predict the next word in a Sentence.
@@ -35,7 +51,7 @@ We use Django which is an open-source web application framework written in Pytho
 ![image](https://user-images.githubusercontent.com/79177516/163972673-bf0c7181-7694-4622-9217-bf885a0db423.png)
 
 
-# [Project 3: Logistic Regression - Pyhton - Sentiment Analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
+# [Project 5: Logistic Regression - Pyhton - Sentiment Analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
 
 ## Scenario: 
 ###  Sentiment Analysis Modeling: 
@@ -53,17 +69,9 @@ We use Django, an open-source web application framework written in Python. This 
 ![image](https://user-images.githubusercontent.com/79177516/164618063-9625d13e-8476-4318-a276-9ab4814bd2c0.png)
 
 
-# [Project 4: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
-## Scenario: 
-### Store Logistics Accuracy Modeling: 
-In this project, we build a learning-based entity extraction model (a custom Bert Model) to extract the store_number from the transaction_descriptor. The dataset contains three sections: train, validate, and test. We use Python libraries (NumPy, Keras, TensorFlow, Pandas). This project will preprocess the data into a more usable format. Will train and develop an algorithm model using the sequence-based datasets. What is BERT NLP Model? BERT NLP model is a group of Transformers encoders stacked on each other. BERT is a precise, huge transformer masked language model in more technical terms. Models are the output of an algorithm run on data, including the procedures used to make predictions on data. Once we develop the custom part model we can use it for implementation in a real-life example given the data provided.
-
-### [Link - Data Set for Model ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Example.Dataset.Homework.html)
-
-![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
 
 
-# [Project 5: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
+# [Project 6: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, we create a model in R and we create a logistic regression model to help answer the questions question we have about the dataset. A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit.
@@ -73,7 +81,7 @@ In this project, we create a model in R and we create a logistic regression mode
 
 
 
-# [Project 6: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
+# [Project 7: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, we use Decision Trees models to create a model to help answer the questions question we have about the dataset.  A credit card company has access to a set of historical data that can be used to study the relationships between customer characteristics and whether or not they are likely to default on their credit. It is important for the company to calculate the risk that their customers will default on their credit. 
@@ -83,7 +91,7 @@ In this project, we use Decision Trees models to create a model to help answer t
 
 
 
-# [Project 7: Multiple Regression, Qualitative Variables Interactions, Quadratic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_One.html)
+# [Project 8: Multiple Regression, Qualitative Variables Interactions, Quadratic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_One.html)
 ## Scenario:
 ### Real Estate Regression Modeling:
 Have access to a large set of historical data to help analyze relationships between a house's different attributes (such as square footage or the number of bathrooms) and the house's selling price. The regression models will predict house sale prices based on critical variable factors.  The developed regression models will use Multiple Regression, Qualitative Variables Interactions, and Quadratic Regression to develop models. The regression models will help a real estate company set better prices when listing a home for a client. Also, Setting better prices will ensure that listings can be sold within a reasonable amount of time.
@@ -91,7 +99,7 @@ Have access to a large set of historical data to help analyze relationships betw
 
 
 
-# [Project 8: Logistic Regression and Random Forests](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Two.html)
+# [Project 9: Logistic Regression and Random Forests](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Two.html)
 ## Scenario:
 ### Heart Disease Modeling: 
 University Hospital is researching risk factors for heart disease. Have access to a large set of historical data that you can use to analyze patterns between different health indicators (e.g. fasting blood sugar, maximum heart rate, etc.) and the presence of heart disease. Create different logistic regression models that predict whether or not a person is at risk for heart disease. A model like this could eventually be used to evaluate medical records and look for risks that might not be obvious to human doctors.  Also, another model will create a classification random forest model to predict the risk of heart disease and a regression random forest model to predict the maximum heart rate achieved. For this project we create different models analyzing a Heart Disease data set using Logistic Regression and Random Forests. 
