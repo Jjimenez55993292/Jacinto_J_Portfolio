@@ -1,7 +1,7 @@
 # Jacinto_Jimenez_Portfolio
-### Data Science and Data Engineering Portfolio
+### Data Science, AL/ML and Data Engineering Portfolio
 
-Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my work in data science and data engineering. I am deeply passionate about utilizing data to answer complex questions. Data science offers us the opportunity to leverage the vast amount of data available to us to uncover valuable insights. In this portfolio, I have included a selection of projects that I have worked on during my academic studies. These projects involve the use of various Python and R libraries, along with a range of data analysis techniques used to build models. The projects I have selected demonstrate a range of different modeling approaches. Thank you for visiting my portfolio.
+Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my work in Data Science, Data Engineering, and Artificial Intelligence (AI) & Machine Learning (ML). I am deeply passionate about utilizing data and intelligent systems to answer complex questions and create meaningful solutions. AI and ML allow us to uncover patterns, automate processes, and generate predictions that drive real-world impact. In this portfolio, I have included a selection of projects developed during my academic studies that demonstrate my skills in data analysis, modeling, and AI/ML integration. These projects incorporate various Python and R libraries, data engineering tools, and analytical techniques to build predictive and data-driven models. Thank you for visiting my portfolio.
 
 # AI Engineering
 # [Project 1: Document-Aware RAG Chatbot for Healthcare Support](https://github.com/Jjimenez55993292/support-rag-chatbot)
@@ -9,8 +9,6 @@ Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my wor
 ### RAG Chatbot for Healthcare Support: 
 I built a secure, closed-domain assistant that answers patient and staff questions using a clinic’s own PDFs, DOCX, CSV, and TXT files. Users upload documents in a Streamlit UI; the app parses text (PyMuPDF, docx2txt, pandas), splits it (~1,000 chars, 100 overlap), creates embeddings (OpenAIEmbeddings), and indexes them in FAISS. At query time it runs semantic search (k=5) and uses a Retrieval-Augmented Generation flow with LangChain + GPT to produce grounded, empathetic answers, showing the source snippets for transparency. An optional DistilBERT intent classifier routes technical vs. general queries. Ops follow best practices (env-based secrets, local index persistence; cloud-ready). Result: faster, more accurate intake/FAQ responses, reduced staff load, and a clear path to scale (hybrid search, metadata filters) with strong safety controls (PII scrubbing, RBAC, audit logs).
 <img width="975" height="461" alt="image" src="https://github.com/user-attachments/assets/5726844e-db5a-4a9b-b31a-cb143f07fbf9" />
-
-![image](https://user-images.githubusercontent.com/79177516/219904889-225158d2-6afb-4aa2-a1e4-28abfd44ac23.png)
 
 
 # Data Engineering
