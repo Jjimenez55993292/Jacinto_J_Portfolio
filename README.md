@@ -3,11 +3,23 @@
 
 Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my work in Data Science, Data Engineering, and Artificial Intelligence (AI) & Machine Learning (ML). I am deeply passionate about utilizing data and intelligent systems to answer complex questions and create meaningful solutions. AI and ML allow us to uncover patterns, automate processes, and generate predictions that drive real-world impact. In this portfolio, I have included a selection of projects developed during my academic studies that demonstrate my skills in data analysis, modeling, and AI/ML integration. These projects incorporate various Python and R libraries, data engineering tools, and analytical techniques to build predictive and data-driven models. Thank you for visiting my portfolio.
 
+
+# AI & Data Engineering 
+# [Project 1: GitHub Repository →](https://github.com/Jjimenez55993292/medextract_full_project)
+
+## Scenario:
+# 🩺 MedIntel — AI-Powered Clinical Data Hub 
+### A Full-stack AI Pipeline for Medical Data Extraction and Retrieval-Augmented Chatbots  
+I built a full medical data processing system that integrates **data engineering pipelines** with **AI-powered document intelligence**.  
+The project extracts structured information from unstructured medical prescriptions using **OCR (Tesseract/PyMuPDF)**, performs **data validation and correction** through a **human-in-the-loop Streamlit interface**, and persists cleaned data into a **SQLite database**. The **frontend** allows clinicians to **upload, review, and search patient records**, while the **backend (FastAPI)** orchestrates the complete **ETL workflow** — from file ingestion to database persistence. To enhance usability, I integrated a **Retrieval-Augmented Generation (RAG) chatbot** built with **FAISS** and **sentence-transformers**, capable of answering domain-specific questions using both the stored patient data and uploaded clinical documents. This architecture demonstrates a complete **AI + Data Engineering lifecycle** — covering data ingestion, transformation, indexing, and intelligent retrieval. The modular design supports **pluggable LLMs (OpenAI or local vLLM)**, making the system scalable, reproducible, and extensible for real-world healthcare applications such as **medical record search**, **prescription verification**, and **patient insight generation**.
+<img width="975" height="361" alt="image" src="https://github.com/user-attachments/assets/9543fab3-f60f-4205-91fe-dd08f9333a4c" />
+
+
 # AI Engineering
 # [Project 1: Document-Aware RAG Chatbot for Healthcare Support](https://github.com/Jjimenez55993292/support-rag-chatbot)
 ## Scenario:
 ### RAG Chatbot for Healthcare Support: 
-I built a secure, closed-domain assistant that answers patient and staff questions using a clinic’s own PDFs, DOCX, CSV, and TXT files. Users upload documents in a Streamlit UI; the app parses text (PyMuPDF, docx2txt, pandas), splits it (~1,000 chars, 100 overlap), creates embeddings (OpenAIEmbeddings), and indexes them in FAISS. At query time it runs semantic search (k=5) and uses a Retrieval-Augmented Generation flow with LangChain + GPT to produce grounded, empathetic answers, showing the source snippets for transparency. An optional DistilBERT intent classifier routes technical vs. general queries. Ops follow best practices (env-based secrets, local index persistence; cloud-ready). Result: faster, more accurate intake/FAQ responses, reduced staff load, and a clear path to scale (hybrid search, metadata filters) with strong safety controls (PII scrubbing, RBAC, audit logs).
+I built a secure, closed-domain assistant that answers patient and staff questions using a clinic’s own PDFs, DOCX, CSV, and TXT files. Users upload documents in a Streamlit UI; the app parses text (PyMuPDF, docx2txt, pandas), splits it (~1,000 chars, 100 overlap), creates embeddings (OpenAIEmbeddings), and indexes them in FAISS. At query time, it runs semantic search (k=5) and uses a Retrieval-Augmented Generation flow with LangChain + GPT to produce grounded, empathetic answers, showing the source snippets for transparency. An optional DistilBERT intent classifier routes technical vs. general queries. Ops follow best practices (env-based secrets, local index persistence; cloud-ready). Result: faster, more accurate intake/FAQ responses, reduced staff load, and a clear path to scale (hybrid search, metadata filters) with strong safety controls (PII scrubbing, RBAC, audit logs).
 [Read Full Report](https://github.com/Jjimenez55993292/support-rag-chatbot/blob/main/Report.pdf)
 
 
