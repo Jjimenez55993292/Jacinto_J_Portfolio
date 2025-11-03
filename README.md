@@ -6,7 +6,6 @@ Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my wor
 
 # AI & Data Engineering 
 # [Project 1: GitHub Repository →](https://github.com/Jjimenez55993292/medextract_full_project)
-
 ## Scenario:
 # 🩺 MedIntel — AI-Powered Clinical Data Hub 
 ### A Full-stack AI Pipeline for Medical Data Extraction and Retrieval-Augmented Chatbots  
@@ -16,7 +15,7 @@ The project extracts structured information from unstructured medical prescripti
 
 
 # AI Engineering
-# [Project 1: Document-Aware RAG Chatbot for Healthcare Support](https://github.com/Jjimenez55993292/support-rag-chatbot)
+# [Project 2: Document-Aware RAG Chatbot for Healthcare Support](https://github.com/Jjimenez55993292/support-rag-chatbot)
 ## Scenario:
 ### RAG Chatbot for Healthcare Support: 
 I built a secure, closed-domain assistant that answers patient and staff questions using a clinic’s own PDFs, DOCX, CSV, and TXT files. Users upload documents in a Streamlit UI; the app parses text (PyMuPDF, docx2txt, pandas), splits it (~1,000 chars, 100 overlap), creates embeddings (OpenAIEmbeddings), and indexes them in FAISS. At query time, it runs semantic search (k=5) and uses a Retrieval-Augmented Generation flow with LangChain + GPT to produce grounded, empathetic answers, showing the source snippets for transparency. An optional DistilBERT intent classifier routes technical vs. general queries. Ops follow best practices (env-based secrets, local index persistence; cloud-ready). Result: faster, more accurate intake/FAQ responses, reduced staff load, and a clear path to scale (hybrid search, metadata filters) with strong safety controls (PII scrubbing, RBAC, audit logs).
@@ -28,7 +27,7 @@ I built a secure, closed-domain assistant that answers patient and staff questio
 
 # Data Engineering
 
-# [Project 2: Earthquake Data Engineering Project](https://github.com/Jjimenez55993292/EarthquakeDataEngineering)
+# [Project 3: Earthquake Data Engineering Project](https://github.com/Jjimenez55993292/EarthquakeDataEngineering)
 ## Scenario:
 ### Earthquake Data Pipeline: 
 This project aims to ingest and process earthquake data from the USGS, create a reliable, scalable, and cost-effective data pipeline, and make it available for analysis and visualization. To achieve this, a range of open-source technologies such as Terraform, Airflow, Docker, GCS, BigQuery, dbt, and Looker Studio were utilized. The data is acquired through a public REST API provided by USGS, and the seismic events data is stored in a denormalized format using the One Big Table (OBT) method. The project is implemented as an Airflow DAG that runs daily, parameterizing the API endpoint to use the dates passed in through Airflow template variables. The seismic events data is then transformed and materialized as a view and an incremental table using dbt, with a built-in tool to visually display data lineage as it travels across different data layers such as raw, stage, and final. Finally, the data is made accessible for analysis and visualization in Looker Studio using BigQuery as the data source. The project is designed to be automated, reliable, scalable, and affordable, ensuring that it can be easily maintained and expanded over time. See the attached image for further details.
@@ -37,7 +36,7 @@ This project aims to ingest and process earthquake data from the USGS, create a 
 
 
 
-# [Project 3: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
+# [Project 4: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
 ## Scenario: 
 ### Store Logistics Accuracy Modeling: 
 In this project, we aim to construct a learning-based entity extraction model, specifically a custom BERT model, which will extract the store number from the transaction descriptor. The dataset is divided into three sections: train, validate, and test, and we utilize Python libraries such as NumPy, Keras, TensorFlow, and Pandas. The project will involve preprocessing the data to make it more usable, as well as training and developing an algorithm model using sequence-based datasets.
@@ -51,7 +50,7 @@ For those unfamiliar with BERT, it is a group of Transformers encoders stacked o
 
 # Data Science
 
-# [Project 4: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
+# [Project 5: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
 ## Scenario:
 ### Heart Attack Risk Predictor Modeling: 
 The primary objective of this project is to develop an automated machine learning model to predict the risk of heart attacks. The dataset includes various attributes that are crucial for detecting heart diseases. We will compare the performance of our model with other conventional machine learning models such as Logistic Regression, Decision Tree, Random Forest, K Nearest Neighbor, and SVM. The automated machine learning process involves using AutoML to automate the tasks of applying machine learning to real-world problems. We will utilize the EvalML library to automate a more significant part of the machine learning process. EvalML enables us to evaluate which machine learning pipeline works best for the given dataset. By comparing the performance of different models, we aim to build a more efficient and accurate heart attack risk prediction model.
