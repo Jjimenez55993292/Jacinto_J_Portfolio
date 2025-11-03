@@ -7,7 +7,7 @@ Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my wor
 # AI & Data Engineering 
 # [Project 1: GitHub Repository →](https://github.com/Jjimenez55993292/medextract_full_project)
 ## Scenario:
-# 🩺 MedIntel — AI-Powered Clinical Data Hub 
+### 🩺 MedIntel — AI-Powered Clinical Data Hub 
 ### A Full-stack AI Pipeline for Medical Data Extraction and Retrieval-Augmented Chatbots  
 I built a full medical data processing system that integrates **data engineering pipelines** with **AI-powered document intelligence**.  
 The project extracts structured information from unstructured medical prescriptions using **OCR (Tesseract/PyMuPDF)**, performs **data validation and correction** through a **human-in-the-loop Streamlit interface**, and persists cleaned data into a **SQLite database**. The **frontend** allows clinicians to **upload, review, and search patient records**, while the **backend (FastAPI)** orchestrates the complete **ETL workflow** — from file ingestion to database persistence. To enhance usability, I integrated a **Retrieval-Augmented Generation (RAG) chatbot** built with **FAISS** and **sentence-transformers**, capable of answering domain-specific questions using both the stored patient data and uploaded clinical documents. This architecture demonstrates a complete **AI + Data Engineering lifecycle** — covering data ingestion, transformation, indexing, and intelligent retrieval. The modular design supports **pluggable LLMs (OpenAI or local vLLM)**, making the system scalable, reproducible, and extensible for real-world healthcare applications such as **medical record search**, **prescription verification**, and **patient insight generation**.
