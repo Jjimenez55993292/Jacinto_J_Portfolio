@@ -45,11 +45,21 @@ For those unfamiliar with BERT, it is a group of Transformers encoders stacked o
 
 ![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
 
+### 🫀 Project 5: CardioGuard — End-to-End Cardiovascular Disease Risk Predictor
+## Scenario: 
+## A complete machine learning pipeline with API deployment, Streamlit UI, and cloud hosting
+I built a full ML system that predicts cardiovascular disease risk using structured patient data such as age, blood pressure, cholesterol levels, and lifestyle indicators. This project includes the entire ML lifecycle — from data preparation and EDA, to model training, evaluation, deployment, and a polished UI for real-world usage. The system is powered by a Gradient Boosting classifier, trained on the 70,000-row Cardiovascular Disease dataset from Kaggle. Features are validated, encoded with a DictVectorizer, passed through the model, and returned as both a binary risk prediction and a probability score. A FastAPI backend exposes a public /predict endpoint, containerized with Docker, and deployed to Fly.io. A separate Streamlit web interface lets users interactively test patient scenarios with sliders and see risk levels instantly. This modular design makes the system reproducible, scalable, and deployable for future healthcare ML applications.
+🔗 **GitHub Repository:**
+https://github.com/Jjimenez55993292/cardio_vasicular_disease_detector
+🚀 **Live API Endpoint:**
+https://cvd-detector-main-v2.fly.dev/
+🌐 **Streamlit Web App:**
+https://cvd-streamlit-app.fly.dev/
 
 
 # Data Science
 
-# [Project 5: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
+# [Project 6: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
 ## Scenario:
 ### Heart Attack Risk Predictor Modeling: 
 The primary objective of this project is to develop an automated machine learning model to predict the risk of heart attacks. The dataset includes various attributes that are crucial for detecting heart diseases. We will compare the performance of our model with other conventional machine learning models such as Logistic Regression, Decision Tree, Random Forest, K Nearest Neighbor, and SVM. The automated machine learning process involves using AutoML to automate the tasks of applying machine learning to real-world problems. We will utilize the EvalML library to automate a more significant part of the machine learning process. EvalML enables us to evaluate which machine learning pipeline works best for the given dataset. By comparing the performance of different models, we aim to build a more efficient and accurate heart attack risk prediction model.
@@ -58,7 +68,7 @@ The primary objective of this project is to develop an automated machine learnin
 
 
 
-# [Project 5: Learning (Long Short-term Memory) LSTM Model](https://jjimenez55993292.github.io/Deep-Learning-LSTM-model/PredictingNextWordInASentence.html)
+# [Project 7: Learning (Long Short-term Memory) LSTM Model](https://jjimenez55993292.github.io/Deep-Learning-LSTM-model/PredictingNextWordInASentence.html)
 ## Scenario:
 ### LSTM Model - Predicting The Next Word In A Sentence: 
 In this project, we will be building and deploying data science, machine learning, and deep learning models. Our tools will include Python libraries such as NumPy, pickle, Keras, TensorFlow, and Pandas, as well as Django, GCP, and Heroku Cloud. The focus of this project will be on a text dataset, specifically a book. We will preprocess the data to ensure it is in a more usable format and use sequence-based datasets to train and develop an algorithm model. Our choice of model for this project will be the Deep Learning (Long Short-term Memory) LSTM model. The LSTM model is a neural net-architecture that performs exceptionally well on sequence-based datasets. Its feedback structure enables the model to remember the sequence of data input and the changes in the output, making it possible to predict the next word in a sentence accurately.
@@ -80,7 +90,7 @@ We utilized Django, an open-source web application framework written in Python, 
 
 
 
-# [Project 6: Logistic Regression - Pyhton - Sentiment Analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
+# [Project 8: Logistic Regression - Pyhton - Sentiment Analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
 
 ## Scenario: 
 ###  Sentiment Analysis Modeling: 
@@ -99,7 +109,7 @@ In this project, we have built and deployed a data science model for sentiment a
 
 
 
-# [Project 7: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
+# [Project 9: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, we aim to create a logistic regression model in R to investigate the dataset and answer questions related to credit default risk. The dataset provided is from a credit card company, containing historical data of customer characteristics and their likelihood of defaulting on credit. It is crucial for the company to assess the risk of credit default in their customers and take proactive measures to mitigate the risk. Using logistic regression, we can analyze the relationship between various customer characteristics and their probability of defaulting on credit, enabling the company to make data-driven decisions and optimize their risk management strategies.
@@ -109,7 +119,7 @@ In this project, we aim to create a logistic regression model in R to investigat
 
 
 
-# [Project 8: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
+# [Project 10: Decision Trees](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Three.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, our aim is to analyze the historical data provided by a credit card company to identify the relationships between customer characteristics and the likelihood of credit default. To achieve this, we use Decision Tree models which are a powerful tool for analyzing and classifying data. The Decision Tree algorithm works by recursively splitting the data based on the features that best discriminate between the classes. We will train our model on the historical data and use it to predict the probability of default for new customers. By accurately assessing the risk of credit default, the credit card company can take proactive measures to minimize their financial losses.
@@ -119,16 +129,7 @@ In this project, our aim is to analyze the historical data provided by a credit 
 
 
 
-# [Project 9: Multiple Regression, Qualitative Variables Interactions, Quadratic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_One.html)
-## Scenario:
-### Real Estate Regression Modeling:
-In this project, we will leverage a large set of historical data to analyze the relationships between various attributes of a house, such as square footage or the number of bathrooms, and the house's selling price. Our goal is to create accurate regression models that can predict house sale prices based on key variable factors. To achieve this, we will utilize Multiple Regression, Qualitative Variables Interactions, and Quadratic Regression to develop the most effective models. By developing these regression models, we aim to help a real estate company set more informed and accurate prices when listing a home for a client. Ultimately, our goal is to ensure that listings can be sold within a reasonable amount of time, and our regression models will play a crucial role in this process.
-
-![image](https://user-images.githubusercontent.com/79177516/137412480-cea56d11-e9c0-4bf6-be74-c523107f6db3.png)
-
-
-
-# [Project 10: Logistic Regression and Random Forests](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Two.html)
+# [Project 11: Logistic Regression and Random Forests](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Project_Two.html)
 ## Scenario:
 ### Heart Disease Modeling: 
 The University Hospital is conducting a research on the risk factors associated with heart disease. They have access to a large set of historical data that contains information on different health indicators, such as fasting blood sugar and maximum heart rate, which can be used to analyze patterns and identify the presence of heart disease. The project aims to create multiple logistic regression models to predict the likelihood of an individual being at risk of heart disease. Such models can prove to be highly valuable in evaluating medical records and identifying hidden risks that may not be apparent to human doctors. In addition, the project also involves creating a classification random forest model to predict the risk of heart disease and a regression random forest model to predict the maximum heart rate achieved. The project is aimed at developing various models to analyze the Heart Disease dataset using Logistic Regression and Random Forests.
