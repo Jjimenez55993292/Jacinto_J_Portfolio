@@ -52,10 +52,10 @@ For those unfamiliar with BERT, it is a group of Transformers encoders stacked o
 I built a full ML system that predicts cardiovascular disease risk using structured patient data such as age, blood pressure, cholesterol levels, and lifestyle indicators. This project includes the entire ML lifecycle — from data preparation and EDA, to model training, evaluation, deployment, and a polished UI for real-world usage. The system is powered by a Gradient Boosting classifier, trained on the 70,000-row Cardiovascular Disease dataset from Kaggle. Features are validated, encoded with a DictVectorizer, passed through the model, and returned as both a binary risk prediction and a probability score. A FastAPI backend exposes a public /predict endpoint, containerized with Docker, and deployed to Fly.io. A separate Streamlit web interface lets users interactively test patient scenarios with sliders and see risk levels instantly. This modular design makes the system reproducible, scalable, and deployable for future healthcare ML applications.
 <img width="872" height="797" alt="image" src="https://github.com/user-attachments/assets/798e969f-a31d-4ea0-a297-f24d9c792d3e" />
 🚀 **Live API Endpoint:**
-https://cvd-detector-main-v2.fly.dev/
+[CVD Detector API](https://cvd-detector-main-v2.fly.dev/)
 <img width="1582" height="770" alt="image" src="https://github.com/user-attachments/assets/5606ca5c-d5f6-4d6b-bbe9-baefec60d224" />
 🌐 **Streamlit Web App:**
-https://cvd-streamlit-app.fly.dev/
+[CVD Streamlit App](https://cvd-streamlit-app.fly.dev/)
 
 # Data Science
 
