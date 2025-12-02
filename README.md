@@ -3,6 +3,17 @@
 
 Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my work in Data Science, Data Engineering, and Artificial Intelligence (AI) & Machine Learning (ML). I am deeply passionate about utilizing data and intelligent systems to answer complex questions and create meaningful solutions. AI and ML allow us to uncover patterns, automate processes, and generate predictions that drive real-world impact. In this portfolio, I have included a selection of projects developed during my academic studies that demonstrate my skills in data analysis, modeling, and AI/ML integration. These projects incorporate various Python and R libraries, data engineering tools, and analytical techniques to build predictive and data-driven models. Thank you for visiting my portfolio.
 
+# Data Analyst & Data Engineering 
+# [Project 2: CMS-64 Federal Reporting Explorer](https://github.com/Jjimenez55993292/cms64-federal-reporting-explorer)
+**Live demo:** https://cms64-federal-reporting-explorer.fly.dev/
+I built a small Medicaid EDW-style pipeline and dashboard that mirrors the work of a CMS-64/21 federal reporting data analyst, using the official CMS Medicaid Financial Management – National Totals (MBES/CBES) dataset as the source. An ETL pipeline (data_pipeline.py) downloads the CSV from medicaid.gov, cleans types and whitespace, and loads it into a SQLite warehouse (cms_edw.db) with indexes on Year, Program, and Service Category. On top of that, a Plotly Dash app (app.py) provides an Overview view for trends in Total Computable, Federal Share, and State Share by year (with YoY change), a By Service Category view that shows CMS-64-style spend by service line (top 20 categories), a By Program view that compares Medicaid, Admin, CHIP, etc., and a Data Quality view that checks Total Computable ≈ Federal + State, flags negative values and missing Service Categories, and plots the differences. The stack is Python, pandas, SQLite, Plotly Dash, Docker, and Fly.io.
+This project shows I can:
+- Work with **Medicaid/CMS-64-style data**
+- Build and query a **mini EDW** for federal reporting
+- Implement **data quality and reconciliation rules**
+- Deliver a **deployed interactive dashboard** that supports reporting and QA.
+<img width="1445" height="867" alt="dashboard" src="https://github.com/user-attachments/assets/3c80cce7-88c2-46e8-bd9d-9f9ff7f005fc" />
+
 
 # AI & Data Engineering 
 # [Project 1: A Full-stack AI Pipeline for Medical Data Extraction and Retrieval-Augmented Chatbots](https://github.com/Jjimenez55993292/medextract_full_project)
