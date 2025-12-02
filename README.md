@@ -14,7 +14,6 @@ This project shows I can:
 - Build and query a **mini EDW** for federal reporting
 - Implement **data quality and reconciliation rules**
 - Deliver a **deployed interactive dashboard** that supports reporting and QA.
-<img width="1445" height="867" alt="dashboard" src="https://github.com/user-attachments/assets/3c80cce7-88c2-46e8-bd9d-9f9ff7f005fc"/>
 <img alt="dashboard" src="https://github.com/user-attachments/assets/3c80cce7-88c2-46e8-bd9d-9f9ff7f005fc" width="100%"/>
 
 
@@ -34,8 +33,7 @@ This project shows I can:
 - Build **interactive analytical dashboards** with filters, charts, and tabular drill-downs  
 - Apply **data profiling and summarization** to make large event datasets interpretable  
 - Package and deploy a **production-style Dash app** using Docker, Gunicorn, and Fly.io  
-<img width="3759" height="1795" alt="image" src="https://github.com/user-attachments/assets/f12ed8ee-8511-4cb3-b3c8-e230f5b9770b" />
-
+<img alt="image" src="https://github.com/user-attachments/assets/f12ed8ee-8511-4cb3-b3c8-e230f5b9770b" width="100%"/>
 
 
 # AI & Data Engineering 
