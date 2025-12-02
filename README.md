@@ -14,8 +14,9 @@ This project shows I can:
 - Build and query a **mini EDW** for federal reporting
 - Implement **data quality and reconciliation rules**
 - Deliver a **deployed interactive dashboard** that supports reporting and QA.
-<img width="1445" height="867" alt="dashboard" src="https://github.com/user-attachments/assets/3c80cce7-88c2-46e8-bd9d-9f9ff7f005fc" />
-![dashboard](https://github.com/user-attachments/assets/3c80cce7-88c2-46e8-bd9d-9f9ff7f005fc)
+<img width="1445" height="867" alt="dashboard" src="https://github.com/user-attachments/assets/3c80cce7-88c2-46e8-bd9d-9f9ff7f005fc"/>
+<img alt="dashboard" src="https://github.com/user-attachments/assets/3c80cce7-88c2-46e8-bd9d-9f9ff7f005fc" width="100%"/>
+
 
 
 # Data Analyst & Data Engineering  
