@@ -5,7 +5,8 @@ Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my wor
 
 # Data Analyst & Data Engineering 
 # [Project 1: CMS-64 Federal Reporting Explorer](https://github.com/Jjimenez55993292/cms64-federal-reporting-explorer)
-**Live demo:** https://cms64-federal-reporting-explorer.fly.dev/
+🌐 **Live Demo:**
+[Dashboard App]([https://cms64-federal-reporting-explorer.fly.dev/])
 I built a small Medicaid EDW-style pipeline and dashboard that mirrors the work of a CMS-64/21 federal reporting data analyst, using the official CMS Medicaid Financial Management – National Totals (MBES/CBES) dataset as the source. An ETL pipeline (data_pipeline.py) downloads the CSV from medicaid.gov, cleans types and whitespace, and loads it into a SQLite warehouse (cms_edw.db) with indexes on Year, Program, and Service Category. On top of that, a Plotly Dash app (app.py) provides an Overview view for trends in Total Computable, Federal Share, and State Share by year (with YoY change), a By Service Category view that shows CMS-64-style spend by service line (top 20 categories), a By Program view that compares Medicaid, Admin, CHIP, etc., and a Data Quality view that checks Total Computable ≈ Federal + State, flags negative values and missing Service Categories, and plots the differences. The stack is Python, pandas, SQLite, Plotly Dash, Docker, and Fly.io.
 This project shows I can:
 - Work with **Medicaid/CMS-64-style data**
