@@ -16,9 +16,26 @@ This project shows I can:
 - Deliver a **deployed interactive dashboard** that supports reporting and QA.
 <img width="1445" height="867" alt="dashboard" src="https://github.com/user-attachments/assets/3c80cce7-88c2-46e8-bd9d-9f9ff7f005fc" />
 
+# Data Analyst & Data Engineering  
+# [Project 2: openFDA Safety Explorer](https://github.com/Jjimenez55993292/dashboard-openfda)
+🌐 **Live Demo:**  
+[openFDA Safety Explorer Dashboard](https://dashboard-openfda.fly.dev/)
+## Scenario:
+I built an interactive safety monitoring dashboard on top of the public [openFDA Drug Event API](https://open.fda.gov/apis/drug/event/) to simulate the kind of exploratory analysis a pharmacovigilance or drug safety analyst would do. The app lets users query real FDA adverse event data by lookback window or full calendar year, filter by drug name or reaction term, and then explores the results with summary metrics, trend lines, and reaction frequency charts.
+Under the hood, the app builds parameterized API queries to openFDA, handles paging through JSON results, normalizes the nested event/reaction structure into tidy `pandas` DataFrames, and calculates metrics like total reports, unique drugs, and top reactions. A Plotly Dash front end (app.py) then turns this into an interactive dashboard with time series for events over time, a bar chart of top reaction terms, and a sample table of individual case reports. The app is containerized with Docker and deployed on Fly.io behind Gunicorn.
+The stack is Python, `requests`, `pandas`, Plotly Dash, Docker, and Fly.io.
+
+This project shows I can:
+- Work with **real-world healthcare / pharmacovigilance data** from the openFDA Drug Event API  
+- Design and implement **API-driven data pipelines** (query, paginate, normalize nested JSON)  
+- Build **interactive analytical dashboards** with filters, charts, and tabular drill-downs  
+- Apply **data profiling and summarization** to make large event datasets interpretable  
+- Package and deploy a **production-style Dash app** using Docker, Gunicorn, and Fly.io  
+![openFDA Safety Explorer dashboard](<img width="3759" height="1795" alt="image" src="https://github.com/user-attachments/assets/ae07fd7d-7829-4d91-8dd4-a01b52e9edcc" />)
+
 
 # AI & Data Engineering 
-# [Project 2: A Full-stack AI Pipeline for Medical Data Extraction and Retrieval-Augmented Chatbots](https://github.com/Jjimenez55993292/medextract_full_project)
+# [Project 3: A Full-stack AI Pipeline for Medical Data Extraction and Retrieval-Augmented Chatbots](https://github.com/Jjimenez55993292/medextract_full_project)
 ## Scenario:
 ### 🩺 MedIntel — AI-Powered Clinical Data Hub 
 I built a full medical data processing system that integrates **data engineering pipelines** with **AI-powered document intelligence**.  
@@ -27,18 +44,16 @@ The project extracts structured information from unstructured medical prescripti
 
 
 # AI Engineering
-# [Project 3: Document-Aware RAG Chatbot for Healthcare Support](https://github.com/Jjimenez55993292/support-rag-chatbot)
+# [Project 4: Document-Aware RAG Chatbot for Healthcare Support](https://github.com/Jjimenez55993292/support-rag-chatbot)
 ## Scenario:
 ### RAG Chatbot for Healthcare Support: 
 I built a secure, closed-domain assistant that answers patient and staff questions using a clinic’s own PDFs, DOCX, CSV, and TXT files. Users upload documents in a Streamlit UI; the app parses text (PyMuPDF, docx2txt, pandas), splits it (~1,000 chars, 100 overlap), creates embeddings (OpenAIEmbeddings), and indexes them in FAISS. At query time, it runs semantic search (k=5) and uses a Retrieval-Augmented Generation flow with LangChain + GPT to produce grounded, empathetic answers, showing the source snippets for transparency. An optional DistilBERT intent classifier routes technical vs. general queries. Ops follow best practices (env-based secrets, local index persistence; cloud-ready). Result: faster, more accurate intake/FAQ responses, reduced staff load, and a clear path to scale (hybrid search, metadata filters) with strong safety controls (PII scrubbing, RBAC, audit logs).
 [Read Full Report](https://github.com/Jjimenez55993292/support-rag-chatbot/blob/main/Report.pdf)
-
-
 <img width="975" height="461" alt="image" src="https://github.com/user-attachments/assets/5726844e-db5a-4a9b-b31a-cb143f07fbf9" />
 
 
 # Data Engineering
-# [Project 4: Earthquake Data Engineering Project](https://github.com/Jjimenez55993292/EarthquakeDataEngineering)
+# [Project 5: Earthquake Data Engineering Project](https://github.com/Jjimenez55993292/EarthquakeDataEngineering)
 ## Scenario:
 ### Earthquake Data Pipeline: 
 This project aims to ingest and process earthquake data from the USGS, create a reliable, scalable, and cost-effective data pipeline, and make it available for analysis and visualization. To achieve this, a range of open-source technologies such as Terraform, Airflow, Docker, GCS, BigQuery, dbt, and Looker Studio were utilized. The data is acquired through a public REST API provided by USGS, and the seismic events data is stored in a denormalized format using the One Big Table (OBT) method. The project is implemented as an Airflow DAG that runs daily, parameterizing the API endpoint to use the dates passed in through Airflow template variables. The seismic events data is then transformed and materialized as a view and an incremental table using dbt, with a built-in tool to visually display data lineage as it travels across different data layers such as raw, stage, and final. Finally, the data is made accessible for analysis and visualization in Looker Studio using BigQuery as the data source. The project is designed to be automated, reliable, scalable, and affordable, ensuring that it can be easily maintained and expanded over time. See the attached image for further details.
@@ -47,7 +62,7 @@ This project aims to ingest and process earthquake data from the USGS, create a 
 
 
 
-# [Project 5: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
+# [Project 6: BERT Natural Language Processing (NLP) Model - Python](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/BERTModel_HomeWork.html)
 ## Scenario: 
 ### Store Logistics Accuracy Modeling: 
 In this project, we aim to construct a learning-based entity extraction model, specifically a custom BERT model, which will extract the store number from the transaction descriptor. The dataset is divided into three sections: train, validate, and test, and we utilize Python libraries such as NumPy, Keras, TensorFlow, and Pandas. The project will involve preprocessing the data to make it more usable, as well as training and developing an algorithm model using sequence-based datasets.
@@ -58,7 +73,7 @@ For those unfamiliar with BERT, it is a group of Transformers encoders stacked o
 ![image](https://user-images.githubusercontent.com/79177516/180825125-298cec42-47ab-4d9d-b5eb-0178e2c27562.png)
 
 # ML Engineering
-# [🫀 Project 6: CardioGuard — End-to-End Cardiovascular Disease Risk Predictor](https://github.com/Jjimenez55993292/cardio_vasicular_disease_detector)
+# [🫀 Project 7: CardioGuard — End-to-End Cardiovascular Disease Risk Predictor](https://github.com/Jjimenez55993292/cardio_vasicular_disease_detector)
 ## Scenario: 
 ## A complete machine learning pipeline with API deployment, Streamlit UI, and cloud hosting
 I built a full ML system that predicts cardiovascular disease risk using structured patient data such as age, blood pressure, cholesterol levels, and lifestyle indicators. This project includes the entire ML lifecycle — from data preparation and EDA, to model training, evaluation, deployment, and a polished UI for real-world usage. The system is powered by a Gradient Boosting classifier, trained on the 70,000-row Cardiovascular Disease dataset from Kaggle. Features are validated, encoded with a DictVectorizer, passed through the model, and returned as both a binary risk prediction and a probability score. A FastAPI backend exposes a public /predict endpoint, containerized with Docker, and deployed to Fly.io. A separate Streamlit web interface lets users interactively test patient scenarios with sliders and see risk levels instantly. This modular design makes the system reproducible, scalable, and deployable for future healthcare ML applications.
@@ -71,7 +86,7 @@ I built a full ML system that predicts cardiovascular disease risk using structu
 
 # Data Science
 
-# [Project 7: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
+# [Project 8: Automated Machine Learning Techniques (EvalML)](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/HeartAttackRiskPredictor.html)
 ## Scenario:
 ### Heart Attack Risk Predictor Modeling: 
 The primary objective of this project is to develop an automated machine learning model to predict the risk of heart attacks. The dataset includes various attributes that are crucial for detecting heart diseases. We will compare the performance of our model with other conventional machine learning models such as Logistic Regression, Decision Tree, Random Forest, K Nearest Neighbor, and SVM. The automated machine learning process involves using AutoML to automate the tasks of applying machine learning to real-world problems. We will utilize the EvalML library to automate a more significant part of the machine learning process. EvalML enables us to evaluate which machine learning pipeline works best for the given dataset. By comparing the performance of different models, we aim to build a more efficient and accurate heart attack risk prediction model.
@@ -80,7 +95,7 @@ The primary objective of this project is to develop an automated machine learnin
 
 
 
-# [Project 8: Learning (Long Short-term Memory) LSTM Model](https://jjimenez55993292.github.io/Deep-Learning-LSTM-model/PredictingNextWordInASentence.html)
+# [Project 9: Learning (Long Short-term Memory) LSTM Model](https://jjimenez55993292.github.io/Deep-Learning-LSTM-model/PredictingNextWordInASentence.html)
 ## Scenario:
 ### LSTM Model - Predicting The Next Word In A Sentence: 
 In this project, we will be building and deploying data science, machine learning, and deep learning models. Our tools will include Python libraries such as NumPy, pickle, Keras, TensorFlow, and Pandas, as well as Django, GCP, and Heroku Cloud. The focus of this project will be on a text dataset, specifically a book. We will preprocess the data to ensure it is in a more usable format and use sequence-based datasets to train and develop an algorithm model. Our choice of model for this project will be the Deep Learning (Long Short-term Memory) LSTM model. The LSTM model is a neural net-architecture that performs exceptionally well on sequence-based datasets. Its feedback structure enables the model to remember the sequence of data input and the changes in the output, making it possible to predict the next word in a sentence accurately.
@@ -102,7 +117,7 @@ We utilized Django, an open-source web application framework written in Python, 
 
 
 
-# [Project 8: Logistic Regression - Pyhton - Sentiment Analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
+# [Project 10: Logistic Regression - Pyhton - Sentiment Analysis ](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/Sentiment%20Analysis%20Using%20Logistic%20Regression%20Model.html)
 
 ## Scenario: 
 ###  Sentiment Analysis Modeling: 
@@ -121,7 +136,7 @@ In this project, we have built and deployed a data science model for sentiment a
 
 
 
-# [Project 9: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
+# [Project 11: Logistic Regression](https://jjimenez55993292.github.io/Jacinto_J_Portfolio/project_4.html)
 ## Scenario: 
 ### Credit Card Risks Modeling: 
 In this project, we aim to create a logistic regression model in R to investigate the dataset and answer questions related to credit default risk. The dataset provided is from a credit card company, containing historical data of customer characteristics and their likelihood of defaulting on credit. It is crucial for the company to assess the risk of credit default in their customers and take proactive measures to mitigate the risk. Using logistic regression, we can analyze the relationship between various customer characteristics and their probability of defaulting on credit, enabling the company to make data-driven decisions and optimize their risk management strategies.
