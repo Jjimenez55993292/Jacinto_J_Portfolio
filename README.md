@@ -31,7 +31,8 @@ This project shows I can:
 - Build **interactive analytical dashboards** with filters, charts, and tabular drill-downs  
 - Apply **data profiling and summarization** to make large event datasets interpretable  
 - Package and deploy a **production-style Dash app** using Docker, Gunicorn, and Fly.io  
-![openFDA Safety Explorer dashboard](<img width="3759" height="1795" alt="image" src="https://github.com/user-attachments/assets/ae07fd7d-7829-4d91-8dd4-a01b52e9edcc" />)
+<img width="3759" height="1795" alt="image" src="https://github.com/user-attachments/assets/f12ed8ee-8511-4cb3-b3c8-e230f5b9770b" />
+
 
 
 # AI & Data Engineering 
