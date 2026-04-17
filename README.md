@@ -1,7 +1,25 @@
 # Jacinto_Jimenez_Portfolio
-### Data Science, AL/ML and Data Engineering Portfolio
+### Data Science, AI/ML, Data Engineering, and Healthcare Integration Portfolio
+Hello, my name is Jacinto Jimenez, and welcome to my portfolio. This portfolio showcases my work across Data Science, Artificial Intelligence (AI), Machine Learning (ML), Data Engineering, and Healthcare Integration.
+I am passionate about using data, intelligent systems, and technical problem-solving to build meaningful solutions that address real-world challenges. My interests include data analysis, predictive modeling, ETL and data pipeline development, dashboard design, healthcare interoperability, and operational analytics. I enjoy transforming complex datasets and workflows into clear, practical tools that support decision-making and system improvement.
+The projects included here reflect work completed through academic studies, independent technical development, and portfolio-based project building. They demonstrate experience with Python, R, SQL, Streamlit, dashboard development, data engineering workflows, and AI/ML-related techniques. They also show my growing focus on healthcare technology, including interoperability concepts such as HL7, FHIR, and connected clinical data workflows.
+Thank you for visiting my portfolio.
 
-Hello, my name is Jacinto Jimenez, and welcome to my portfolio showcasing my work in Data Science, Data Engineering, and Artificial Intelligence (AI) & Machine Learning (ML). I am deeply passionate about utilizing data and intelligent systems to answer complex questions and create meaningful solutions. AI and ML allow us to uncover patterns, automate processes, and generate predictions that drive real-world impact. In this portfolio, I have included a selection of projects developed during my academic studies that demonstrate my skills in data analysis, modeling, and AI/ML integration. These projects incorporate various Python and R libraries, data engineering tools, and analytical techniques to build predictive and data-driven models. Thank you for visiting my portfolio.
+# [Project 0: HL7 Data Integration Dashboard](https://github.com/Jjimenez55993292/HL7_Data_Integration_Dashboard)
+🌐 **Live Demo:**  
+[Dashboard App](https://hl7-dashboard-demo.fly.dev/)
+
+## Scenario:
+I built a healthcare data integration and workflow dashboard that simulates how clinical data is generated, transformed, routed, and consumed across connected healthcare systems. The project includes simulated bedside monitor, lab analyzer, and radiology order workflows, with standards-based HL7 v2 and FHIR-style message generation, SQLite persistence, transaction traceability, and downstream operational views. Built with a modular Python architecture and deployed with Docker and Fly.io, the dashboard is designed to demonstrate healthcare interoperability, data engineering workflow design, and operational analytics in a professional portfolio project.
+
+This project shows I can:
+- Work with **healthcare integration and interoperability workflows**
+- Design **data pipelines and application logic** for operational systems
+- Use **HL7 v2, FHIR, SQLite, and Streamlit** in a real project structure
+- Build **traceable dashboard-style tools** for monitoring and analysis
+- Deploy a **cloud-hosted interactive application** for demonstration and portfolio use
+<img width="975" height="467" alt="image" src="https://github.com/user-attachments/assets/e09465cc-6a1c-43e4-b8a0-4a7d1e1a19c2" />
+
 
 # Data Analyst & Data Engineering 
 # [Project 1: CMS-64 Federal Reporting Explorer](https://github.com/Jjimenez55993292/cms64-federal-reporting-explorer)
