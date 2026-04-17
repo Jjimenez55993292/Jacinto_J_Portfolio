@@ -3,7 +3,7 @@
 Hello, my name is Jacinto Jimenez, and welcome to my portfolio. This portfolio showcases my work across Data Science, Artificial Intelligence (AI), Machine Learning (ML), Data Engineering, and Healthcare Integration.
 I am passionate about using data, intelligent systems, and technical problem-solving to build meaningful solutions that address real-world challenges. My interests include data analysis, predictive modeling, ETL and data pipeline development, dashboard design, healthcare interoperability, and operational analytics. I enjoy transforming complex datasets and workflows into clear, practical tools that support decision-making and system improvement.
 The projects included here reflect work completed through academic studies, independent technical development, and portfolio-based project building. They demonstrate experience with Python, R, SQL, Streamlit, dashboard development, data engineering workflows, and AI/ML-related techniques. They also show my growing focus on healthcare technology, including interoperability concepts such as HL7, FHIR, and connected clinical data workflows.
-Thank you for visiting my portfolio.
+Thank you.
 
 # [Project 0: HL7 Data Integration Dashboard](https://github.com/Jjimenez55993292/HL7_Data_Integration_Dashboard)
 🌐 **Live Demo:**  
